@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &91508375
 Transform:
   m_ObjectHideFlags: 0
@@ -786,8 +786,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 40
+  far clip plane: 2800
+  field of view: 75
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -933,7 +933,7 @@ PrefabInstance:
     - target: {fileID: 9005220659476430821, guid: 2d3a85ecde41a8246a79669975912b74,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 55
+      value: 119
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430821, guid: 2d3a85ecde41a8246a79669975912b74,
         type: 3}
@@ -1611,7 +1611,7 @@ GameObject:
   - component: {fileID: 1432276023}
   - component: {fileID: 1432276022}
   - component: {fileID: 1432276021}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: ClownNose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
